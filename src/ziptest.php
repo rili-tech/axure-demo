@@ -1,2 +1,0 @@
-<?php
-$za = new ZipArchive;
