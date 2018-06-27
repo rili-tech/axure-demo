@@ -5,7 +5,8 @@ RUN rm -rf *
 WORKDIR /var/www/html
 RUN rm -rf *
 
-RUN docker-php-ext-install redis
+RUN pecl install redis
+RUN echo "extension=redis.so" > /usr/local/etc/php/conf.d/docker-php-ext-redis.ini
 
 ADD src/. /var/www/html/
 
