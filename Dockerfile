@@ -5,11 +5,7 @@ RUN rm -rf *
 WORKDIR /var/www/html
 RUN rm -rf *
 
-RUN apk add autoconf gcc musl-dev make
-RUN pecl install igbinary
-RUN echo -e "extension=igbinary.so\nigbinary.compact_strings=On" > /usr/local/etc/php/conf.d/docker-php-ext-igbinary.ini
-RUN echo "yes" | pecl install redis
-RUN echo "extension=redis.so" > /usr/local/etc/php/conf.d/docker-php-ext-redis.ini
+RUN docker-php-ext-install redis
 
 ADD src/. /var/www/html/
 
