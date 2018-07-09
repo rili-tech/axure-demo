@@ -1,4 +1,4 @@
-FROM richarvey/nginx-php-fpm:1.5.0
+FROM rili-tech/nginx-php-fpm-redis:latest
 
 WORKDIR /var/www/errors
 RUN rm -rf *
