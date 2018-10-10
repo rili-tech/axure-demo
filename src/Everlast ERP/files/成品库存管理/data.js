@@ -1,0 +1,7 @@
+﻿$axure.loadCurrentPage(
+(function() {
+    var _ = function() { var r={},a=arguments; for(var i=0; i<a.length; i+=2) r[a[i]]=a[i+1]; return r; }
+    var _creator = function() { return _(b,c,d,e,f,g,h,g,i,_(j,k),l,[m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D],E,_(F,G,H,I,J,K,L,_(),M,_(N,O,P,Q,R,_(S,T,U,V),W,null,X,Y,Z,Y,ba,bb,bc,null,bd,be,bf,bg,bh,bi,bj,be),bk,_(),bl,_(),bm,_(bn,[])),bo,_(),bp,_());}; 
+var b="url",c="成品库存管理.html",d="generationDate",e=new Date(1539140400615.5),f="isCanvasEnabled",g=false,h="isAdaptiveEnabled",i="sketchKeys",j="",k="s0",l="variables",m="OnLoadVariable",n="Skin",o="Username",p="Password",q="NewVariable",r="xianzhongzhangtai",s="bianjirenwu",t="wenben",u="Initialize",v="ongoing",w="suspended",x="complete",y="diturenwu",z="shejirenwu",A="gongchengrenwu",B="renwuwenben",C="tongguopinpgu",D="delete",E="page",F="packageId",G="8e7510ba1e9548e18dff8d076b6c55de",H="type",I="Axure:Page",J="name",K="成品库存管理",L="notes",M="style",N="baseStyle",O="627587b6038d43cca051c114ac41ad32",P="pageAlignment",Q="center",R="fill",S="fillType",T="solid",U="color",V=0xFFF6F7F9,W="image",X="imageHorizontalAlignment",Y="near",Z="imageVerticalAlignment",ba="imageRepeat",bb="auto",bc="favicon",bd="sketchFactor",be="0",bf="colorStyle",bg="appliedColor",bh="fontName",bi="Applied Font",bj="borderWidth",bk="adaptiveStyles",bl="interactionMap",bm="diagram",bn="objects",bo="masters",bp="objectPaths";
+return _creator();
+})());
