@@ -1,0 +1,7 @@
+﻿$axure.loadCurrentPage(
+(function() {
+    var _ = function() { var r={},a=arguments; for(var i=0; i<a.length; i+=2) r[a[i]]=a[i+1]; return r; }
+    var _creator = function() { return _(b,c,d,e,f,g,h,g,i,_(j,k),l,[m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E],F,_(G,H,I,J,K,L,M,_(),N,_(O,P,Q,R,S,_(T,U,V,W),X,null,Y,Z,ba,Z,bb,bc,bd,null,be,bf,bg,bh,bi,bj,bk,bf),bl,_(),bm,_(),bn,_(bo,[])),bp,_(),bq,_());}; 
+var b="url",c="生产计划详情.html",d="generationDate",e=new Date(1539768079998.9),f="isCanvasEnabled",g=false,h="isAdaptiveEnabled",i="sketchKeys",j="",k="s0",l="variables",m="OnLoadVariable",n="Skin",o="Username",p="Password",q="NewVariable",r="xianzhongzhangtai",s="bianjirenwu",t="wenben",u="Initialize",v="ongoing",w="suspended",x="complete",y="diturenwu",z="shejirenwu",A="gongchengrenwu",B="renwuwenben",C="tongguopinpgu",D="delete",E="rotating",F="page",G="packageId",H="f17e8ba2cda540fd9da9468872751b5f",I="type",J="Axure:Page",K="name",L="生产计划详情",M="notes",N="style",O="baseStyle",P="627587b6038d43cca051c114ac41ad32",Q="pageAlignment",R="center",S="fill",T="fillType",U="solid",V="color",W=0xFFF6F7F9,X="image",Y="imageHorizontalAlignment",Z="near",ba="imageVerticalAlignment",bb="imageRepeat",bc="auto",bd="favicon",be="sketchFactor",bf="0",bg="colorStyle",bh="appliedColor",bi="fontName",bj="Applied Font",bk="borderWidth",bl="adaptiveStyles",bm="interactionMap",bn="diagram",bo="objects",bp="masters",bq="objectPaths";
+return _creator();
+})());
