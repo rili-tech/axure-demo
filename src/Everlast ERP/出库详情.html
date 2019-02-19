@@ -1,0 +1,2703 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>出库详情</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=1366, maximum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/出库详情/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/出库详情/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19343" class="ax_default _默认样式">
+        <div id="u19343_div" class=""></div>
+        <div id="u19343_text" class="text ">
+          <p style="font-size:18px;"><span style="font-family:'FontAwesome';font-weight:400;"></span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-size:12px;"> 原料出库列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19344" class="ax_default _默认样式 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19344_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19345" class="ax_default _默认样式 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19345_div" class=""></div>
+        <div id="u19345_text" class="text ">
+          <p style="font-size:18px;"><span style="font-family:'FontAwesome';font-weight:400;"> </span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-size:12px;"> </span><span style="font-family:'宋体';font-weight:400;font-size:12px;">筛选</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u19346" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (下拉列表框) -->
+        <div id="u19347" class="ax_default droplist">
+          <select id="u19347_input">
+            <option value="全部">全部</option>
+            <option value="新板">新板</option>
+            <option value="旧板">旧板</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19348" class="ax_default line">
+          <img id="u19348_img" class="img " src="images/生产计划详情/u2913.png"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19349" class="ax_default line">
+          <img id="u19349_img" class="img " src="images/生产计划详情/u2913.png"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19350" class="ax_default line">
+          <img id="u19350_img" class="img " src="images/订单详情/u5759.png"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19351" class="ax_default line">
+          <img id="u19351_img" class="img " src="images/订单详情/u5759.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19352" class="ax_default label ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19352_div" class=""></div>
+        <div id="u19352_text" class="text ">
+          <p><span>原料编号：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u19353" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (下拉列表框) -->
+        <div id="u19354" class="ax_default droplist">
+          <select id="u19354_input">
+            <option value="全部">全部</option>
+            <option value="U板">U板</option>
+            <option value="40角铝">40角铝</option>
+            <option value="回型管">回型管</option>
+            <option value="工40">工40</option>
+            <option value="F60">F60</option>
+            <option value="C板">C板</option>
+            <option value="C封边">C封边</option>
+            <option value="快拆头">快拆头</option>
+            <option value="龙骨">龙骨</option>
+            <option value="龙骨底座">龙骨底座</option>
+            <option value="Ǿ40管">Ǿ40管</option>
+            <option value="85角铝">85角铝</option>
+            <option value="65角铝">65角铝</option>
+            <option value="BB条">BB条</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19355" class="ax_default line">
+          <img id="u19355_img" class="img " src="images/生产计划详情/u2913.png"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19356" class="ax_default line">
+          <img id="u19356_img" class="img " src="images/生产计划详情/u2913.png"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19357" class="ax_default line">
+          <img id="u19357_img" class="img " src="images/订单详情/u5759.png"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19358" class="ax_default line">
+          <img id="u19358_img" class="img " src="images/订单详情/u5759.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19359" class="ax_default label ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19359_div" class=""></div>
+        <div id="u19359_text" class="text ">
+          <p><span>类型：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u19360" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (下拉列表框) -->
+        <div id="u19361" class="ax_default droplist">
+          <select id="u19361_input">
+            <option value="全部">全部</option>
+            <option value="广州仓库">广州仓库</option>
+            <option value="佛山仓库">佛山仓库</option>
+            <option value="深圳仓库">深圳仓库</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19362" class="ax_default line">
+          <img id="u19362_img" class="img " src="images/生产计划详情/u2913.png"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19363" class="ax_default line">
+          <img id="u19363_img" class="img " src="images/生产计划详情/u2913.png"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19364" class="ax_default line">
+          <img id="u19364_img" class="img " src="images/订单详情/u5759.png"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u19365" class="ax_default line">
+          <img id="u19365_img" class="img " src="images/订单详情/u5759.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19366" class="ax_default label ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19366_div" class=""></div>
+        <div id="u19366_text" class="text ">
+          <p><span>所在仓库：</span></p>
+        </div>
+      </div>
+
+      <!-- 搜索 (组合) -->
+      <div id="u19367" class="ax_default" data-label="搜索" data-left="959" data-top="89" data-width="198" data-height="35">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19368" class="ax_default _默认样式">
+          <div id="u19368_div" class=""></div>
+        </div>
+
+        <!-- 生产计划搜索输入框 (文本框) -->
+        <div id="u19369" class="ax_default text_field" data-label="生产计划搜索输入框">
+          <input id="u19369_input" type="text" value=""/>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u19370" class="ax_default icon">
+          <img id="u19370_img" class="img " src="images/出库详情/u19370.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19371" class="ax_default _默认样式">
+        <div id="u19371_div" class=""></div>
+        <div id="u19371_text" class="text ">
+          <p><span>查 询</span></p>
+        </div>
+      </div>
+
+      <!-- 生产计划搜索清空 (形状) -->
+      <div id="u19372" class="ax_default icon ax_default_hidden" data-label="生产计划搜索清空" style="display:none; visibility: hidden">
+        <img id="u19372_img" class="img " src="images/出库详情/生产计划搜索清空_u19372.png"/>
+      </div>
+
+      <!-- 新增编辑 (动态面板) -->
+      <div id="u19373" class="ax_default ax_default_hidden" data-label="新增编辑" style="display:none; visibility: hidden">
+        <div id="u19373_state0" class="panel_state" data-label="原料编辑" style="">
+          <div id="u19373_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19374" class="ax_default _默认样式">
+              <div id="u19374_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19375" class="ax_default _默认样式">
+              <div id="u19375_div" class=""></div>
+              <div id="u19375_text" class="text ">
+                <p><span>&nbsp; 原料编辑</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19376" class="ax_default icon">
+              <img id="u19376_img" class="img " src="images/生产计划管理/u1732.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19377" class="ax_default label">
+              <div id="u19377_div" class=""></div>
+              <div id="u19377_text" class="text ">
+                <p><span>编号：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19378" class="ax_default" data-left="155" data-top="120" data-width="190" data-height="38">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19379" class="ax_default _默认样式">
+                <div id="u19379_div" class=""></div>
+              </div>
+
+              <!-- 编辑默认长度 (文本框) -->
+              <div id="u19380" class="ax_default text_field" data-label="编辑默认长度">
+                <input id="u19380_input" type="text" value=""/>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19381" class="ax_default label">
+              <div id="u19381_div" class=""></div>
+              <div id="u19381_text" class="text ">
+                <p><span>默认长度：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19382" class="ax_default" data-left="155" data-top="178" data-width="190" data-height="38">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19383" class="ax_default _默认样式">
+                <div id="u19383_div" class=""></div>
+              </div>
+
+              <!-- 编辑单位重量 (文本框) -->
+              <div id="u19384" class="ax_default text_field" data-label="编辑单位重量">
+                <input id="u19384_input" type="text" value=""/>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19385" class="ax_default label">
+              <div id="u19385_div" class=""></div>
+              <div id="u19385_text" class="text ">
+                <p><span>单位重量：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19386" class="ax_default label">
+              <div id="u19386_div" class=""></div>
+              <div id="u19386_text" class="text ">
+                <p><span>类型：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19387" class="ax_default" data-left="155" data-top="408" data-width="229" data-height="137">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19388" class="ax_default _默认样式">
+                <div id="u19388_div" class=""></div>
+              </div>
+
+              <!-- 备注 (多行文本框) -->
+              <div id="u19389" class="ax_default text_area" data-label="备注">
+                <textarea id="u19389_input"></textarea>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19390" class="ax_default label">
+              <div id="u19390_div" class=""></div>
+              <div id="u19390_text" class="text ">
+                <p><span>备注：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19391" class="ax_default _默认样式">
+              <div id="u19391_div" class=""></div>
+              <div id="u19391_text" class="text ">
+                <p><span>保存</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19392" class="ax_default _默认样式">
+              <div id="u19392_div" class=""></div>
+              <div id="u19392_text" class="text ">
+                <p><span>取消</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19393" class="ax_default label">
+              <div id="u19393_div" class=""></div>
+              <div id="u19393_text" class="text ">
+                <p><span>kg/m</span></p>
+              </div>
+            </div>
+
+            <!-- 编辑类型 (下拉列表框) -->
+            <div id="u19394" class="ax_default droplist" data-label="编辑类型">
+              <select id="u19394_input">
+                <option value=" 请选择类型">&nbsp;请选择类型</option>
+                <option value="工字钢">工字钢</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (水平线) -->
+            <div id="u19395" class="ax_default line">
+              <img id="u19395_img" class="img " src="images/仓库管理/u17940.png"/>
+            </div>
+
+            <!-- Unnamed (水平线) -->
+            <div id="u19396" class="ax_default line">
+              <img id="u19396_img" class="img " src="images/仓库管理/u17940.png"/>
+            </div>
+
+            <!-- Unnamed (垂直线) -->
+            <div id="u19397" class="ax_default line">
+              <img id="u19397_img" class="img " src="images/切割详情/u6184.png"/>
+            </div>
+
+            <!-- Unnamed (垂直线) -->
+            <div id="u19398" class="ax_default line">
+              <img id="u19398_img" class="img " src="images/切割详情/u6184.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19399" class="ax_default label">
+              <div id="u19399_div" class=""></div>
+              <div id="u19399_text" class="text ">
+                <p><span>mm</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19400" class="ax_default" data-left="155" data-top="292" data-width="190" data-height="38">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19401" class="ax_default _默认样式">
+                <div id="u19401_div" class=""></div>
+              </div>
+
+              <!-- 编辑剩余长度 (文本框) -->
+              <div id="u19402" class="ax_default text_field" data-label="编辑剩余长度">
+                <input id="u19402_input" type="text" value=""/>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19403" class="ax_default label">
+              <div id="u19403_div" class=""></div>
+              <div id="u19403_text" class="text ">
+                <p><span>剩余长度：</span></p>
+              </div>
+            </div>
+
+            <!-- 编号重复提示 (组合) -->
+            <div id="u19404" class="ax_default ax_default_hidden" data-label="编号重复提示" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (形状) -->
+              <div id="u19405" class="ax_default icon">
+                <img id="u19405_img" class="img " src="images/生产计划管理/u1752.png"/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19406" class="ax_default label">
+                <div id="u19406_div" class=""></div>
+                <div id="u19406_text" class="text ">
+                  <p><span>编号已存在</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 编辑编号 (下拉列表框) -->
+            <div id="u19407" class="ax_default droplist" data-label="编辑编号">
+              <select id="u19407_input">
+                <option value=" 请选择编号">&nbsp;请选择编号</option>
+                <option value="KJHSUDHF">KJHSUDHF</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (水平线) -->
+            <div id="u19408" class="ax_default line">
+              <img id="u19408_img" class="img " src="images/仓库管理/u17940.png"/>
+            </div>
+
+            <!-- Unnamed (水平线) -->
+            <div id="u19409" class="ax_default line">
+              <img id="u19409_img" class="img " src="images/仓库管理/u17940.png"/>
+            </div>
+
+            <!-- Unnamed (垂直线) -->
+            <div id="u19410" class="ax_default line">
+              <img id="u19410_img" class="img " src="images/切割详情/u6184.png"/>
+            </div>
+
+            <!-- Unnamed (垂直线) -->
+            <div id="u19411" class="ax_default line">
+              <img id="u19411_img" class="img " src="images/切割详情/u6184.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19412" class="ax_default label">
+              <div id="u19412_div" class=""></div>
+              <div id="u19412_text" class="text ">
+                <p><span>mm</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19413" class="ax_default" data-left="155" data-top="349" data-width="190" data-height="38">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19414" class="ax_default _默认样式">
+                <div id="u19414_div" class=""></div>
+              </div>
+
+              <!-- 编辑库存数量 (文本框) -->
+              <div id="u19415" class="ax_default text_field" data-label="编辑库存数量">
+                <input id="u19415_input" type="text" value=""/>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19416" class="ax_default label">
+              <div id="u19416_div" class=""></div>
+              <div id="u19416_text" class="text ">
+                <p><span>库存数量：</span></p>
+              </div>
+            </div>
+
+            <!-- 编号重复提示 (组合) -->
+            <div id="u19417" class="ax_default ax_default_hidden" data-label="编号重复提示" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (形状) -->
+              <div id="u19418" class="ax_default icon">
+                <img id="u19418_img" class="img " src="images/生产计划管理/u1752.png"/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19419" class="ax_default label">
+                <div id="u19419_div" class=""></div>
+                <div id="u19419_text" class="text ">
+                  <p><span>编号已存在</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19373_state1" class="panel_state" data-label="新增原料" style="visibility: hidden;">
+          <div id="u19373_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19420" class="ax_default _默认样式">
+              <div id="u19420_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19421" class="ax_default _默认样式">
+              <div id="u19421_div" class=""></div>
+              <div id="u19421_text" class="text ">
+                <p><span>&nbsp; 新增原料</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19422" class="ax_default icon">
+              <img id="u19422_img" class="img " src="images/生产计划管理/u1732.png"/>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19423" class="ax_default" data-left="155" data-top="293" data-width="190" data-height="38">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19424" class="ax_default _默认样式">
+                <div id="u19424_div" class=""></div>
+              </div>
+
+              <!-- 新增剩余长度 (文本框) -->
+              <div id="u19425" class="ax_default text_field" data-label="新增剩余长度">
+                <input id="u19425_input" type="text" value=""/>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19426" class="ax_default label">
+              <div id="u19426_div" class=""></div>
+              <div id="u19426_text" class="text ">
+                <p><span>剩余长度：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19427" class="ax_default" data-left="155" data-top="120" data-width="190" data-height="38">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19428" class="ax_default _默认样式">
+                <div id="u19428_div" class=""></div>
+              </div>
+
+              <!-- 新增总尺寸 (文本框) -->
+              <div id="u19429" class="ax_default text_field" data-label="新增总尺寸">
+                <input id="u19429_input" type="text" value=""/>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19430" class="ax_default label">
+              <div id="u19430_div" class=""></div>
+              <div id="u19430_text" class="text ">
+                <p><span>默认长度：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19431" class="ax_default" data-left="155" data-top="178" data-width="190" data-height="38">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19432" class="ax_default _默认样式">
+                <div id="u19432_div" class=""></div>
+              </div>
+
+              <!-- 新增单位重量 (文本框) -->
+              <div id="u19433" class="ax_default text_field" data-label="新增单位重量">
+                <input id="u19433_input" type="text" value=""/>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19434" class="ax_default label">
+              <div id="u19434_div" class=""></div>
+              <div id="u19434_text" class="text ">
+                <p><span>单位重量：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19435" class="ax_default label">
+              <div id="u19435_div" class=""></div>
+              <div id="u19435_text" class="text ">
+                <p><span>类型：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19436" class="ax_default" data-left="155" data-top="409" data-width="229" data-height="137">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19437" class="ax_default _默认样式">
+                <div id="u19437_div" class=""></div>
+              </div>
+
+              <!-- 新增备注 (多行文本框) -->
+              <div id="u19438" class="ax_default text_area" data-label="新增备注">
+                <textarea id="u19438_input"></textarea>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19439" class="ax_default label">
+              <div id="u19439_div" class=""></div>
+              <div id="u19439_text" class="text ">
+                <p><span>备注：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19440" class="ax_default _默认样式">
+              <div id="u19440_div" class=""></div>
+              <div id="u19440_text" class="text ">
+                <p><span>保存</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19441" class="ax_default _默认样式">
+              <div id="u19441_div" class=""></div>
+              <div id="u19441_text" class="text ">
+                <p><span>取消</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19442" class="ax_default label">
+              <div id="u19442_div" class=""></div>
+              <div id="u19442_text" class="text ">
+                <p><span>kg/m</span></p>
+              </div>
+            </div>
+
+            <!-- 编号重复提示 (组合) -->
+            <div id="u19443" class="ax_default ax_default_hidden" data-label="编号重复提示" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (形状) -->
+              <div id="u19444" class="ax_default icon">
+                <img id="u19444_img" class="img " src="images/生产计划管理/u1752.png"/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19445" class="ax_default label">
+                <div id="u19445_div" class=""></div>
+                <div id="u19445_text" class="text ">
+                  <p><span>编号已存在</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 总尺寸为空 (组合) -->
+            <div id="u19446" class="ax_default ax_default_hidden" data-label="总尺寸为空" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (形状) -->
+              <div id="u19447" class="ax_default icon">
+                <img id="u19447_img" class="img " src="images/生产计划管理/u1752.png"/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19448" class="ax_default label">
+                <div id="u19448_div" class=""></div>
+                <div id="u19448_text" class="text ">
+                  <p><span>请输入总尺寸</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 单位重量为空 (组合) -->
+            <div id="u19449" class="ax_default ax_default_hidden" data-label="单位重量为空" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (形状) -->
+              <div id="u19450" class="ax_default icon">
+                <img id="u19450_img" class="img " src="images/生产计划管理/u1752.png"/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19451" class="ax_default label">
+                <div id="u19451_div" class=""></div>
+                <div id="u19451_text" class="text ">
+                  <p><span>请输入单位重量</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 类型为空 (组合) -->
+            <div id="u19452" class="ax_default ax_default_hidden" data-label="类型为空" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (形状) -->
+              <div id="u19453" class="ax_default icon">
+                <img id="u19453_img" class="img " src="images/生产计划管理/u1752.png"/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19454" class="ax_default label">
+                <div id="u19454_div" class=""></div>
+                <div id="u19454_text" class="text ">
+                  <p><span>请输入类型</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 新增类型 (下拉列表框) -->
+            <div id="u19455" class="ax_default droplist" data-label="新增类型">
+              <select id="u19455_input">
+                <option value="请选择类型">请选择类型</option>
+                <option value="工字钢">工字钢</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (水平线) -->
+            <div id="u19456" class="ax_default line">
+              <img id="u19456_img" class="img " src="images/切割详情/u6182.png"/>
+            </div>
+
+            <!-- Unnamed (水平线) -->
+            <div id="u19457" class="ax_default line">
+              <img id="u19457_img" class="img " src="images/切割详情/u6182.png"/>
+            </div>
+
+            <!-- Unnamed (垂直线) -->
+            <div id="u19458" class="ax_default line">
+              <img id="u19458_img" class="img " src="images/切割详情/u6184.png"/>
+            </div>
+
+            <!-- Unnamed (垂直线) -->
+            <div id="u19459" class="ax_default line">
+              <img id="u19459_img" class="img " src="images/切割详情/u6184.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19460" class="ax_default label">
+              <div id="u19460_div" class=""></div>
+              <div id="u19460_text" class="text ">
+                <p><span>mm</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19461" class="ax_default label">
+              <div id="u19461_div" class=""></div>
+              <div id="u19461_text" class="text ">
+                <p><span>编号：</span></p>
+              </div>
+            </div>
+
+            <!-- 类型为空 (组合) -->
+            <div id="u19462" class="ax_default ax_default_hidden" data-label="类型为空" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (形状) -->
+              <div id="u19463" class="ax_default icon">
+                <img id="u19463_img" class="img " src="images/生产计划管理/u1752.png"/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19464" class="ax_default label">
+                <div id="u19464_div" class=""></div>
+                <div id="u19464_text" class="text ">
+                  <p><span>请输入类型</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 新增编号 (下拉列表框) -->
+            <div id="u19465" class="ax_default droplist" data-label="新增编号">
+              <select id="u19465_input">
+                <option value="请选择编号">请选择编号</option>
+                <option value="KJHSUDHF">KJHSUDHF</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (水平线) -->
+            <div id="u19466" class="ax_default line">
+              <img id="u19466_img" class="img " src="images/切割详情/u6182.png"/>
+            </div>
+
+            <!-- Unnamed (水平线) -->
+            <div id="u19467" class="ax_default line">
+              <img id="u19467_img" class="img " src="images/切割详情/u6182.png"/>
+            </div>
+
+            <!-- Unnamed (垂直线) -->
+            <div id="u19468" class="ax_default line">
+              <img id="u19468_img" class="img " src="images/切割详情/u6184.png"/>
+            </div>
+
+            <!-- Unnamed (垂直线) -->
+            <div id="u19469" class="ax_default line">
+              <img id="u19469_img" class="img " src="images/切割详情/u6184.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19470" class="ax_default label">
+              <div id="u19470_div" class=""></div>
+              <div id="u19470_text" class="text ">
+                <p><span>mm</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19471" class="ax_default" data-left="155" data-top="350" data-width="190" data-height="38">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19472" class="ax_default _默认样式">
+                <div id="u19472_div" class=""></div>
+              </div>
+
+              <!-- 新增库存数量 (文本框) -->
+              <div id="u19473" class="ax_default text_field" data-label="新增库存数量">
+                <input id="u19473_input" type="text" value=""/>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19474" class="ax_default label">
+              <div id="u19474_div" class=""></div>
+              <div id="u19474_text" class="text ">
+                <p><span>库存数量：</span></p>
+              </div>
+            </div>
+
+            <!-- 编号重复提示 (组合) -->
+            <div id="u19475" class="ax_default ax_default_hidden" data-label="编号重复提示" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (形状) -->
+              <div id="u19476" class="ax_default icon">
+                <img id="u19476_img" class="img " src="images/生产计划管理/u1752.png"/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19477" class="ax_default label">
+                <div id="u19477_div" class=""></div>
+                <div id="u19477_text" class="text ">
+                  <p><span>编号已存在</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (标题通栏) -->
+
+      <!-- 灰色背景 (动态面板) -->
+      <div id="u19479" class="ax_default" data-label="灰色背景">
+        <div id="u19479_state0" class="panel_state" data-label="State1" style="">
+          <div id="u19479_state0_content" class="panel_state_content">
+
+            <!-- 页面标题 (矩形) -->
+            <div id="u19480" class="ax_default _默认样式" data-label="页面标题">
+              <div id="u19480_div" class=""></div>
+              <div id="u19480_text" class="text ">
+                <p><span>页面标题</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组合) -->
+            <div id="u19481" class="ax_default" data-left="1310" data-top="10" data-width="90" data-height="30">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19482" class="ax_default _默认样式" title="刷新">
+                <div id="u19482_div" class=""></div>
+                <div id="u19482_text" class="text ">
+                  <p><span>刷新</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (组合) -->
+              <div id="u19483" class="ax_default" data-left="1324" data-top="16" data-width="19" data-height="17">
+
+                <!-- Unnamed (形状) -->
+                <div id="u19484" class="ax_default _默认样式">
+                  <img id="u19484_img" class="img " src="images/首页/u252.png"/>
+                </div>
+
+                <!-- Unnamed (形状) -->
+                <div id="u19485" class="ax_default _默认样式">
+                  <img id="u19485_img" class="img " src="images/首页/u253.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 线条 (动态面板) -->
+      <div id="u19486" class="ax_default" data-label="线条">
+        <div id="u19486_state0" class="panel_state" data-label="State1" style="">
+          <div id="u19486_state0_content" class="panel_state_content">
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u19487" class="ax_default _表格">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u19488" class="ax_default _默认样式">
+          <img id="u19488_img" class="img " src="images/打包移厂/u11133.png"/>
+          <div id="u19488_text" class="text ">
+            <p><span>原料编号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u19489" class="ax_default _默认样式">
+          <img id="u19489_img" class="img " src="images/出库详情/u19489.png"/>
+          <div id="u19489_text" class="text ">
+            <p><span>默认长度(mm)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u19490" class="ax_default _默认样式">
+          <img id="u19490_img" class="img " src="images/出库详情/u19489.png"/>
+          <div id="u19490_text" class="text ">
+            <p><span>单位重量(kg/m)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u19491" class="ax_default _默认样式">
+          <img id="u19491_img" class="img " src="images/出库详情/u19491.png"/>
+          <div id="u19491_text" class="text ">
+            <p><span>类型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u19492" class="ax_default _默认样式">
+          <img id="u19492_img" class="img " src="images/出库详情/u19492.png"/>
+          <div id="u19492_text" class="text ">
+            <p><span>剩余长度(mm)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u19493" class="ax_default _默认样式">
+          <img id="u19493_img" class="img " src="images/出库详情/u19491.png"/>
+          <div id="u19493_text" class="text ">
+            <p><span>出库数量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u19494" class="ax_default _默认样式">
+          <img id="u19494_img" class="img " src="images/出库详情/u19494.png"/>
+          <div id="u19494_text" class="text ">
+            <p><span>备注</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19495" class="ax_default _默认样式">
+        <div id="u19495_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (底部版权) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19497" class="ax_default _默认样式">
+        <img id="u19497_img" class="img " src="images/登录界面/u34.png"/>
+        <div id="u19497_text" class="text ">
+          <p><span style="color:#CCCCCC;">Copyright © Shenzhen Rili Technology Co., Ltd, All Rights Reserved.</span></p><p><span style="color:#CCCCCC;">Email : </span><a id="u19498" class="link"><span style="color:#0000FF;">rili@rili.tech</span></a></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (完整分页插件) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19500" class="ax_default _默认样式">
+        <div id="u19500_div" class=""></div>
+        <div id="u19500_text" class="text ">
+          <p><span>共</span><span style="color:#FF3C2C;">10</span><span>页/</span><span style="color:#FF0000;">100</span><span>条数据</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u19501" class="ax_default" data-left="139" data-top="0" data-width="350" data-height="25">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19502" class="ax_default _默认样式 selected">
+          <div id="u19502_div" class="selected"></div>
+          <div id="u19502_text" class="text ">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19503" class="ax_default _默认样式">
+          <div id="u19503_div" class=""></div>
+          <div id="u19503_text" class="text ">
+            <p><span>2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19504" class="ax_default _默认样式">
+          <div id="u19504_div" class=""></div>
+          <div id="u19504_text" class="text ">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19505" class="ax_default _默认样式">
+          <div id="u19505_div" class=""></div>
+          <div id="u19505_text" class="text ">
+            <p><span>4</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19506" class="ax_default _默认样式 disabled">
+          <div id="u19506_div" class="disabled"></div>
+          <div id="u19506_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19507" class="ax_default _默认样式">
+          <div id="u19507_div" class=""></div>
+          <div id="u19507_text" class="text ">
+            <p><span>…</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19508" class="ax_default _默认样式">
+          <div id="u19508_div" class=""></div>
+          <div id="u19508_text" class="text ">
+            <p><span>5</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19509" class="ax_default _默认样式">
+          <div id="u19509_div" class=""></div>
+          <div id="u19509_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19510" class="ax_default _默认样式">
+          <div id="u19510_div" class=""></div>
+          <div id="u19510_text" class="text ">
+            <p><span>50</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u19511" class="ax_default" data-left="509" data-top="0" data-width="99" data-height="25">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19512" class="ax_default paragraph">
+          <div id="u19512_div" class=""></div>
+          <div id="u19512_text" class="text ">
+            <p><span>跳至</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19513" class="ax_default _默认样式">
+          <div id="u19513_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19514" class="ax_default paragraph">
+          <div id="u19514_div" class=""></div>
+          <div id="u19514_text" class="text ">
+            <p><span>页</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本框) -->
+        <div id="u19515" class="ax_default text_field">
+          <input id="u19515_input" type="text" value="1"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19516" class="ax_default _默认样式 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19516_div" class=""></div>
+        <div id="u19516_text" class="text ">
+          <p><span>新增库存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19517" class="ax_default _默认样式 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19517_div" class=""></div>
+        <div id="u19517_text" class="text ">
+          <p><span>导入库存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u19518" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19519" class="ax_default _默认样式">
+          <div id="u19519_div" class=""></div>
+          <div id="u19519_text" class="text ">
+            <p><span style="color:#FFFFFF;">00</span><span style="color:#797979;">导出库存</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (三角形) -->
+        <div id="u19520" class="ax_default _默认样式">
+          <img id="u19520_img" class="img " src="images/生产计划管理/u2463.png"/>
+        </div>
+      </div>
+
+      <!-- 原料库存列表 (中继器) -->
+      <div id="u19521" class="ax_default" data-label="原料库存列表">
+        <script id="u19521_script" type="axure-repeater-template" data-label="原料库存列表">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522" class="ax_default u19522" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523" class="ax_default _默认样式 u19523" data-label="编号">
+              <div id="u19523_div" class="u19523_div"></div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524" class="ax_default _默认样式 u19524" data-label="总尺寸">
+              <div id="u19524_div" class="u19524_div"></div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525" class="ax_default _默认样式 u19525" data-label="单位重量">
+              <div id="u19525_div" class="u19525_div"></div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526" class="ax_default _默认样式 u19526" data-label="类型">
+              <div id="u19526_div" class="u19526_div"></div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527" class="ax_default _默认样式 u19527" data-label="备注">
+              <div id="u19527_div" class="u19527_div"></div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528" class="ax_default _默认样式 ax_default_hidden u19528" style="display:none; visibility: hidden">
+              <div id="u19528_div" class="u19528_div"></div>
+              <div id="u19528_text" class="text u19528_text">
+                <p><a id="u19529" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531" class="ax_default _默认样式 u19531" data-label="剩余长度">
+              <div id="u19531_div" class="u19531_div"></div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532" class="ax_default _默认样式 u19532" data-label="库存数量">
+              <div id="u19532_div" class="u19532_div"></div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533" class="ax_default _默认样式 ax_default_hidden u19533" data-label="所在仓库" style="display:none; visibility: hidden">
+              <div id="u19533_div" class="u19533_div"></div>
+            </div>
+          </div>
+        </script>
+        <div id="u19521-1" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-1" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-1" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-1_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-1_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-1" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-1_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-1_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-1" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-1_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-1_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-1" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-1_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-1_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-1" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-1_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-1_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-1" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-1_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-1_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-1" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-1" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-1" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-1_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-1_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>545</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-1" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-1_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-1_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>5</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-1" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-1_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-1_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-2" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-2" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-2" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-2_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-2_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-2" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-2_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-2_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-2" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-2_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-2_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-2" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-2_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-2_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-2" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-2_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-2_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-2" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-2_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-2_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-2" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-2" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-2" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-2_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-2_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>4453</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-2" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-2_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-2_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>53</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-2" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-2_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-2_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-3" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-3" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-3" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-3_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-3_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-3" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-3_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-3_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-3" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-3_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-3_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-3" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-3_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-3_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-3" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-3_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-3_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-3" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-3_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-3_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-3" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-3" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-3" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-3_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-3_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>536</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-3" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-3_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-3_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>3</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-3" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-3_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-3_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-4" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-4" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-4" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-4_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-4_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-4" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-4_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-4_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-4" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-4_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-4_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-4" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-4_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-4_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-4" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-4_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-4_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-4" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-4_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-4_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-4" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-4" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-4" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-4_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-4_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>345</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-4" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-4_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-4_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>1</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-4" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-4_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-4_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-5" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-5" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-5" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-5_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-5_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-5" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-5_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-5_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-5" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-5_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-5_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-5" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-5_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-5_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-5" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-5_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-5_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-5" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-5_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-5_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-5" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-5" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-5" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-5_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-5_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>123</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-5" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-5_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-5_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>6</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-5" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-5_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-5_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-6" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-6" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-6" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-6_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-6_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-6" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-6_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-6_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-6" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-6_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-6_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-6" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-6_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-6_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-6" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-6_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-6_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-6" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-6_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-6_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-6" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-6" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-6" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-6_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-6_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>123</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-6" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-6_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-6_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>87</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-6" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-6_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-6_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-7" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-7" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-7" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-7_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-7_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-7" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-7_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-7_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-7" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-7_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-7_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-7" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-7_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-7_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-7" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-7_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-7_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-7" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-7_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-7_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-7" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-7" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-7" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-7_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-7_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>235</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-7" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-7_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-7_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>53</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-7" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-7_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-7_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-8" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-8" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-8" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-8_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-8_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-8" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-8_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-8_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-8" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-8_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-8_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-8" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-8_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-8_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-8" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-8_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-8_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-8" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-8_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-8_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-8" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-8" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-8" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-8_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-8_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>45</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-8" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-8_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-8_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>5</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-8" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-8_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-8_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-9" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-9" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-9" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-9_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-9_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-9" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-9_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-9_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-9" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-9_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-9_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-9" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-9_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-9_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-9" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-9_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-9_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-9" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-9_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-9_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-9" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-9" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-9" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-9_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-9_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>536</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-9" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-9_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-9_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>3</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-9" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-9_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-9_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-10" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-10" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-10" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-10_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-10_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-10" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-10_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-10_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-10" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-10_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-10_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-10" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-10_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-10_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-10" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-10_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-10_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-10" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-10_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-10_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-10" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-10" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-10" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-10_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-10_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>345</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-10" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-10_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-10_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>1</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-10" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-10_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-10_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-11" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-11" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-11" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-11_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-11_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-11" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-11_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-11_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-11" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-11_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-11_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-11" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-11_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-11_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-11" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-11_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-11_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-11" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-11_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-11_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-11" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-11" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-11" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-11_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-11_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>123</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-11" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-11_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-11_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>6</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-11" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-11_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-11_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-12" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-12" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-12" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-12_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-12_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-12" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-12_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-12_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-12" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-12_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-12_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-12" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-12_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-12_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-12" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-12_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-12_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-12" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-12_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-12_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-12" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-12" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-12" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-12_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-12_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>45</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-12" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-12_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-12_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>5</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-12" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-12_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-12_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-13" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-13" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-13" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-13_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-13_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-13" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-13_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-13_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-13" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-13_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-13_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-13" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-13_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-13_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-13" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-13_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-13_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-13" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-13_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-13_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-13" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-13" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-13" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-13_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-13_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>536</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-13" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-13_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-13_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>3</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-13" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-13_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-13_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-14" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-14" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-14" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-14_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-14_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-14" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-14_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-14_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-14" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-14_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-14_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-14" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-14_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-14_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-14" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-14_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-14_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-14" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-14_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-14_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-14" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-14" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-14" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-14_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-14_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>345</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-14" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-14_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-14_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>1</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-14" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-14_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-14_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19521-15" class="preeval" style="width: 1100px; height: 45px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u19522-15" class="ax_default u19522" style="visibility: inherit" data-left="0" data-top="0" data-width="1100" data-height="45">
+
+            <!-- 编号 (矩形) -->
+            <div id="u19523-15" class="ax_default _默认样式 u19523" data-label="编号" style="width: 181px; height: 45px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u19523-15_div" class="u19523_div" style="width: 181px; height: 45px;visibility: inherit"></div>
+              <div id="u19523-15_text" class="text u19523_text" style="position: absolute;left: 2px;top: 14px;width: 177px;visibility: inherit">
+                <p><span>KJHSUDHF</span></p>
+              </div>
+            </div>
+
+            <!-- 总尺寸 (矩形) -->
+            <div id="u19524-15" class="ax_default _默认样式 u19524" data-label="总尺寸" style="width: 146px; height: 45px; left: 180px; top: 0px;visibility: inherit">
+              <div id="u19524-15_div" class="u19524_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19524-15_text" class="text u19524_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>14258</span></p>
+              </div>
+            </div>
+
+            <!-- 单位重量 (矩形) -->
+            <div id="u19525-15" class="ax_default _默认样式 u19525" data-label="单位重量" style="width: 146px; height: 45px; left: 325px; top: 0px;visibility: inherit">
+              <div id="u19525-15_div" class="u19525_div" style="width: 146px; height: 45px;visibility: inherit"></div>
+              <div id="u19525-15_text" class="text u19525_text" style="position: absolute;left: 2px;top: 14px;width: 142px;visibility: inherit">
+                <p><span>646165</span></p>
+              </div>
+            </div>
+
+            <!-- 类型 (矩形) -->
+            <div id="u19526-15" class="ax_default _默认样式 u19526" data-label="类型" style="width: 145px; height: 45px; left: 470px; top: 0px;visibility: inherit">
+              <div id="u19526-15_div" class="u19526_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19526-15_text" class="text u19526_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>工字钢</span></p>
+              </div>
+            </div>
+
+            <!-- 备注 (矩形) -->
+            <div id="u19527-15" class="ax_default _默认样式 u19527" data-label="备注" style="width: 200px; height: 45px; left: 900px; top: 0px;visibility: inherit">
+              <div id="u19527-15_div" class="u19527_div" style="width: 200px; height: 45px;visibility: inherit"></div>
+              <div id="u19527-15_text" class="text u19527_text" style="position: absolute;left: 2px;top: 14px;width: 196px;visibility: inherit">
+                <p><span>买的艺人哈佛</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19528-15" class="ax_default _默认样式 u19528" style="width: 138px; height: 45px; left: 1100px; top: 68px;display:none; visibility: hidden">
+              <div id="u19528-15_div" class="u19528_div" style="width: 138px; height: 45px;visibility: inherit"></div>
+              <div id="u19528-15_text" class="text u19528_text" style="position: absolute;left: 2px;top: 14px;width: 134px;visibility: inherit">
+                <p><a id="u19529-15" class="link"><span>编辑</span></a><span>&nbsp; </span><a id="u19530-15" class="link"><span>删除</span></a></p>
+              </div>
+            </div>
+
+            <!-- 剩余长度 (矩形) -->
+            <div id="u19531-15" class="ax_default _默认样式 u19531" data-label="剩余长度" style="width: 144px; height: 45px; left: 614px; top: 0px;visibility: inherit">
+              <div id="u19531-15_div" class="u19531_div" style="width: 144px; height: 45px;visibility: inherit"></div>
+              <div id="u19531-15_text" class="text u19531_text" style="position: absolute;left: 2px;top: 14px;width: 140px;visibility: inherit">
+                <p><span>123</span></p>
+              </div>
+            </div>
+
+            <!-- 库存数量 (矩形) -->
+            <div id="u19532-15" class="ax_default _默认样式 u19532" data-label="库存数量" style="width: 145px; height: 45px; left: 757px; top: 0px;visibility: inherit">
+              <div id="u19532-15_div" class="u19532_div" style="width: 145px; height: 45px;visibility: inherit"></div>
+              <div id="u19532-15_text" class="text u19532_text" style="position: absolute;left: 2px;top: 14px;width: 141px;visibility: inherit">
+                <p><span>6</span></p>
+              </div>
+            </div>
+
+            <!-- 所在仓库 (矩形) -->
+            <div id="u19533-15" class="ax_default _默认样式 u19533" data-label="所在仓库" style="width: 139px; height: 45px; left: 537px; top: 123px;display:none; visibility: hidden">
+              <div id="u19533-15_div" class="u19533_div" style="width: 139px; height: 45px;visibility: inherit"></div>
+              <div id="u19533-15_text" class="text u19533_text" style="position: absolute;left: 2px;top: 14px;width: 135px;visibility: inherit">
+                <p><span>广州仓库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u19534" class="ax_default line">
+        <img id="u19534_img" class="img " src="images/生产计划详情/u2907.png"/>
+      </div>
+
+      <!-- 判断 (动态面板) -->
+      <div id="u19535" class="ax_default ax_default_hidden" data-label="判断" style="display:none; visibility: hidden">
+        <div id="u19535_state0" class="panel_state" data-label="State1" style="">
+          <div id="u19535_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19536" class="ax_default _默认样式">
+              <div id="u19536_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19537" class="ax_default _默认样式">
+              <div id="u19537_div" class=""></div>
+              <div id="u19537_text" class="text ">
+                <p><span>确定</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19538" class="ax_default _默认样式">
+              <div id="u19538_div" class=""></div>
+              <div id="u19538_text" class="text ">
+                <p><span>取消</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19539" class="ax_default label">
+              <div id="u19539_div" class=""></div>
+              <div id="u19539_text" class="text ">
+                <p><span>此操作将永久删除，是否继续</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19540" class="ax_default icon">
+              <img id="u19540_img" class="img " src="images/生产计划管理/u2502.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19541" class="ax_default label">
+              <div id="u19541_div" class=""></div>
+              <div id="u19541_text" class="text ">
+                <p><span>提示</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 导入原料 (动态面板) -->
+      <div id="u19542" class="ax_default ax_default_hidden" data-label="导入原料" style="display:none; visibility: hidden">
+        <div id="u19542_state0" class="panel_state" data-label="State1" style="">
+          <div id="u19542_state0_content" class="panel_state_content">
+
+            <!-- 导入原料 (图片) -->
+            <div id="u19543" class="ax_default image" data-label="导入原料">
+              <img id="u19543_img" class="img " src="images/生产计划管理/导入原料_u2511.jpg"/>
+            </div>
+
+            <!-- Unnamed (热区) -->
+            <div id="u19544" class="ax_default">
+            </div>
+
+            <!-- Unnamed (热区) -->
+            <div id="u19545" class="ax_default">
+            </div>
+
+            <!-- Unnamed (热区) -->
+            <div id="u19546" class="ax_default">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 提示 (动态面板) -->
+      <div id="u19547" class="ax_default ax_default_hidden" data-label="提示" style="display:none; visibility: hidden">
+        <div id="u19547_state0" class="panel_state" data-label="导出原料" style="">
+          <div id="u19547_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19548" class="ax_default _默认样式">
+              <div id="u19548_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19549" class="ax_default icon">
+              <img id="u19549_img" class="img " src="images/生产计划管理/u2517.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19550" class="ax_default label">
+              <div id="u19550_div" class=""></div>
+              <div id="u19550_text" class="text ">
+                <p><span>提示</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19551" class="ax_default label">
+              <div id="u19551_div" class=""></div>
+              <div id="u19551_text" class="text ">
+                <p><span>选择需要导出的原料！</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19547_state1" class="panel_state" data-label="编辑成功" style="visibility: hidden;">
+          <div id="u19547_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19552" class="ax_default _默认样式">
+              <div id="u19552_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19553" class="ax_default label">
+              <div id="u19553_div" class=""></div>
+              <div id="u19553_text" class="text ">
+                <p><span>提示</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19554" class="ax_default label">
+              <div id="u19554_div" class=""></div>
+              <div id="u19554_text" class="text ">
+                <p><span>原料保存成功！</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19555" class="ax_default icon">
+              <img id="u19555_img" class="img " src="images/生产计划管理/u2523.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u19547_state2" class="panel_state" data-label="添加原料" style="visibility: hidden;">
+          <div id="u19547_state2_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19556" class="ax_default _默认样式">
+              <div id="u19556_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19557" class="ax_default label">
+              <div id="u19557_div" class=""></div>
+              <div id="u19557_text" class="text ">
+                <p><span>提示</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19558" class="ax_default label">
+              <div id="u19558_div" class=""></div>
+              <div id="u19558_text" class="text ">
+                <p><span>原料保存成功！</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19559" class="ax_default icon">
+              <img id="u19559_img" class="img " src="images/生产计划管理/u2523.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u19547_state3" class="panel_state" data-label="删除提示" style="visibility: hidden;">
+          <div id="u19547_state3_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19560" class="ax_default _默认样式">
+              <div id="u19560_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19561" class="ax_default icon">
+              <img id="u19561_img" class="img " src="images/生产计划管理/u2517.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19562" class="ax_default label">
+              <div id="u19562_div" class=""></div>
+              <div id="u19562_text" class="text ">
+                <p><span>提示</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19563" class="ax_default label">
+              <div id="u19563_div" class=""></div>
+              <div id="u19563_text" class="text ">
+                <p><span>选择需要删除的原料！</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19547_state4" class="panel_state" data-label="编号重复" style="visibility: hidden;">
+          <div id="u19547_state4_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19564" class="ax_default _默认样式">
+              <div id="u19564_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19565" class="ax_default icon">
+              <img id="u19565_img" class="img " src="images/生产计划管理/u2517.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19566" class="ax_default label">
+              <div id="u19566_div" class=""></div>
+              <div id="u19566_text" class="text ">
+                <p><span>提示</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19567" class="ax_default label">
+              <div id="u19567_div" class=""></div>
+              <div id="u19567_text" class="text ">
+                <p><span>编号已存在，请重新输入！</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19547_state5" class="panel_state" data-label="删除成功" style="visibility: hidden;">
+          <div id="u19547_state5_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19568" class="ax_default _默认样式">
+              <div id="u19568_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19569" class="ax_default label">
+              <div id="u19569_div" class=""></div>
+              <div id="u19569_text" class="text ">
+                <p><span>提示</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19570" class="ax_default label">
+              <div id="u19570_div" class=""></div>
+              <div id="u19570_text" class="text ">
+                <p><span>原料删除成功！</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19571" class="ax_default icon">
+              <img id="u19571_img" class="img " src="images/生产计划管理/u2523.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u19572" class="ax_default ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19572_state0" class="panel_state" data-label="State1" style="">
+          <div id="u19572_state0_content" class="panel_state_content">
+
+            <!-- 导出原料选择 (组合) -->
+            <div id="u19573" class="ax_default" data-label="导出原料选择" data-left="0" data-top="0" data-width="128" data-height="69">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19574" class="ax_default _默认样式">
+                <div id="u19574_div" class=""></div>
+                <div id="u19574_text" class="text ">
+                  <p><span>导出全部库存</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u19575" class="ax_default _默认样式">
+                <div id="u19575_div" class=""></div>
+                <div id="u19575_text" class="text ">
+                  <p><span>导出当前库存</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u19576" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19577" class="ax_default _默认样式">
+          <div id="u19577_div" class=""></div>
+          <div id="u19577_text" class="text ">
+            <p><span style="color:#797979;">批量删除</span><span style="color:#FFFFFF;">0</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u19578" class="ax_default icon">
+          <img id="u19578_img" class="img " src="images/工程项目管理/u4633.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u19579" class="ax_default" data-left="1309" data-top="10" data-width="90" data-height="30">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19580" class="ax_default _默认样式">
+          <div id="u19580_div" class=""></div>
+          <div id="u19580_text" class="text ">
+            <p><span>&nbsp;&nbsp; &nbsp; 返回</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u19581" class="ax_default icon">
+          <img id="u19581_img" class="img " src="images/生产计划详情/u2956.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u19582" class="ax_default" data-left="1209" data-top="10" data-width="90" data-height="30">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19583" class="ax_default _默认样式" title="刷新">
+          <div id="u19583_div" class=""></div>
+          <div id="u19583_text" class="text ">
+            <p><span>刷新</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u19584" class="ax_default" data-left="1223" data-top="16" data-width="19" data-height="17">
+
+          <!-- Unnamed (形状) -->
+          <div id="u19585" class="ax_default _默认样式">
+            <img id="u19585_img" class="img " src="images/首页/u252.png"/>
+          </div>
+
+          <!-- Unnamed (形状) -->
+          <div id="u19586" class="ax_default _默认样式">
+            <img id="u19586_img" class="img " src="images/首页/u253.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
