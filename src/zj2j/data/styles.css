@@ -17,6 +17,9 @@
 }
 .button {
 }
+.primary_button {
+  color:#FFFFFF;
+}
 ._一级标题 {
   font-family:'Arial Normal', 'Arial';
   font-weight:bold;
@@ -58,12 +61,19 @@
   font-size:10px;
   text-align:left;
 }
+.label {
+  font-size:14px;
+  text-align:left;
+}
 ._文本段落 {
   text-align:left;
 }
 ._流程形状 {
 }
 .line {
+}
+.sticky_1 {
+  text-align:left;
 }
 .shape {
 }
@@ -74,4 +84,12 @@
 }
 ._图片1 {
   color:#000000;
+}
+.image1 {
+}
+.text_area {
+  color:#000000;
+  text-align:left;
+}
+.ellipse {
 }
