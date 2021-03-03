@@ -1,4 +1,4 @@
-FROM richarvey/nginx-php-fpm:1.5.0
+FROM richarvey/nginx-php-fpm:1.5.0
 
 WORKDIR /var/www/errors
 RUN rm -rf *
